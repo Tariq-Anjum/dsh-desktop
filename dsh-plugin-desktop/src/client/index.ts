@@ -17,6 +17,10 @@ import { applyExtendedShell, applyFramedShell } from './extended-shell.ts'
 import { desktopWindowService, provideDesktopWindow } from './window-service.ts'
 
 export { applyAdvancedShell } from './advanced-shell.ts'
+export { AntiGravityCanvas, useAntiGravityPhysics } from './AntiGravity.tsx'
+export type { AntiGravityParticle, AntiGravitySettings, AntiGravityCanvasProps } from './AntiGravity.tsx'
+export { CodexUI, useCodexUI } from './CodexUI.tsx'
+export type { CodexLine, CodexUIState, CodexUISettings, CodexUIProps } from './CodexUI.tsx'
 export { applyDesktopSettings } from './desktop-settings.ts'
 export { applyExtendedShell, applyFramedShell } from './extended-shell.ts'
 export {

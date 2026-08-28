@@ -1,16 +1,61 @@
-.DS_Store
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
+```
+# Dependencies
 node_modules/
-*.tsbuildinfo
-.build/
 
-dsh-plugin-desktop/dist/
-dsh-plugin-desktop/lib/
-dsh-community-market/lib/
+# Build artifacts
+dist/
+build/
+target/
 
-.env.yarn
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.ENV
+.env
+.env.local
+.env.*
+.venv/
+venv/
+ENV/
+env.bak/
+.ENV.bak/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+.coverage
+htmlcov/
+.coverage.*
+.cache
+.pytest_cache/
+.mypy_cache/
+
+# Compressed
+*.zip
+*.tar.gz
+*.gz
+*.rar
+*.7z
+```
